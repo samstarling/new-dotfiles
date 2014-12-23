@@ -1,0 +1,9 @@
+[user]
+  name = Sam Starling
+  email = mail@samstarling.co.uk
+[push]
+  default = matching
+[alias]
+  st = status
+[core]
+	excludesfile = /Users/samstarling/.gitignore
