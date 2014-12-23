@@ -1,0 +1,11 @@
+# zsh
+export ZSH=$HOME/.oh-my-zsh
+ZSH_THEME="robbyrussell"
+plugins=(git last-working-dir)
+source $ZSH/oh-my-zsh.sh
+
+# rbenv
+export PATH="/Users/samstarling/.rbenv/shims:$PATH"
+
+# heroku
+export PATH="/usr/local/heroku/bin:$PATH"
