@@ -1,3 +1,6 @@
+" Pathogen
+  execute pathogen#infect()
+
 " Basics
   syntax on
   imap jj <esc>
@@ -26,10 +29,6 @@
 
 " Colours
   colorscheme Tomorrow-Night-Bright
-  "hi linenr ctermfg=238
-  "hi CursorLine ctermbg=235
-  "hi Search ctermfg=253 ctermbg=241
-  "hi IncSearch ctermfg=3 ctermbg=16
 
 " Filetypes
   au BufNewFile,BufRead Vagrantfile set filetype=ruby
