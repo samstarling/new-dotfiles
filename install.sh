@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # vim directories
 mkdir -p ~/.vim/backups
 mkdir -p ~/.vim/swaps
