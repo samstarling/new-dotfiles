@@ -9,3 +9,4 @@ things are already installed:
 Some other things I use, that aren't in this repo:
 
 * [base-16](https://github.com/chriskempson/base16) - a theme
+* [vim-go](https://github.com/fatih/vim-go) - syntax for Go
