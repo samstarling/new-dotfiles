@@ -6,6 +6,11 @@ source $ZSH/oh-my-zsh.sh
 
 # rbenv
 export PATH="/Users/samstarling/.rbenv/shims:$PATH"
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # heroku
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# jenv
+export PATH="$HOME/.jenv/bin:$PATH"
+eval "$(jenv init -)"
