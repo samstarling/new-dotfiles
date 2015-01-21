@@ -13,10 +13,6 @@
   set wildmenu
   set showmode
 
-" Whitespace
-  set lcs=tab:▸\ ,trail:·,nbsp:_
-  set list
-
 " All the backspaces!
   set backspace=indent,eol,start
 
