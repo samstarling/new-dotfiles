@@ -1,0 +1,14 @@
+bittorrent-sync
+chefdk
+colloquy
+dropbox
+fantastical
+flux
+intellij-idea-ce
+iterm2
+skype
+slack
+textmate
+tunnelblick
+vagrant
+virtualbox

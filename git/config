@@ -6,4 +6,4 @@
 [alias]
   st = status
 [core]
-	excludesfile = /Users/samstarling/.gitignore
+	excludesfile = /Users/samuelstarling/.gitignore
