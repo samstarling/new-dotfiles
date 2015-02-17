@@ -1,6 +1,9 @@
 " Pathogen
   execute pathogen#infect()
 
+" Leader
+  let mapleader=","
+
 " Basics
   syntax on
   imap jj <esc>
