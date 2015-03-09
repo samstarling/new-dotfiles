@@ -1,7 +1,7 @@
 # zsh
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="samstarling"
-plugins=(git)
+plugins=(osx git)
 source $ZSH/oh-my-zsh.sh
 
 # rbenv
@@ -19,3 +19,4 @@ export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
 export EDITOR="vim"
+export TERM="screen-256color"
