@@ -15,6 +15,7 @@
   set cursorline
   set wildmenu
   set showmode
+  set nowrap
 
 " All the backspaces!
   set backspace=indent,eol,start
@@ -22,9 +23,6 @@
 " Centralize backups, swapfiles and undo history
   set backupdir=~/.vim/backups
   set directory=~/.vim/swaps
-
-" For MacVim
-  set guifont=Inconsolata:h17
 
 " Colours
   colorscheme Tomorrow-Night-Bright
@@ -49,6 +47,14 @@
   map <Up> <Nop>
   map <Down> <Nop>
 
-" Pathogen
-  "execute pathogen#infect()
-  "let g:airline_powerline_fonts = 1
+" ctrl-p
+  let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
+
+" airline
+  let g:airline#extensions#tabline#enabled = 1
+  let g:airline_left_sep=''
+  let g:airline_right_sep=''
+
+" fancy cursor
+  let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
+  let &t_EI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=0\x7\<Esc>\\"
