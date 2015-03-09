@@ -15,3 +15,4 @@ ln -sf $(pwd)/zsh/zshrc ~/.zshrc
 ln -sf $(pwd)/zsh/theme ~/.oh-my-zsh/themes/samstarling.zsh-theme
 ln -sf $(pwd)/vim/vimrc ~/.vimrc
 ln -sf $(pwd)/vim/colors ~/.vim/colors
+ln -sf $(pwd)/tmux/conf ~/.tmux.conf
