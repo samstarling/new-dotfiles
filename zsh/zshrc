@@ -18,5 +18,10 @@ source `brew --prefix`/etc/profile.d/z.sh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
+# boot2docker
+eval $(boot2docker shellinit 2>/dev/null)
+
+# other bits
 export EDITOR="vim"
 export TERM="screen-256color"
+
