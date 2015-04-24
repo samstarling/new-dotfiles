@@ -25,3 +25,6 @@ eval $(boot2docker shellinit 2>/dev/null)
 export EDITOR="vim"
 export TERM="screen-256color"
 
+# go
+export GOPATH="/Users/samuelstarling/Development/go"
+

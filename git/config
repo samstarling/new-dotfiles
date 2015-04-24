@@ -1,9 +1,14 @@
 [user]
   name = Sam Starling
-  email = mail@samstarling.co.uk
+  email = sam@soundcloud.com
 [push]
   default = matching
 [alias]
   st = status
+  squeeze = push
+  yank = pull
+  ci = commit
+  df = diff
+  bora = commit -am "yolo" && push --force
 [core]
 	excludesfile = /Users/samuelstarling/.gitignore
