@@ -27,4 +27,5 @@ export TERM="screen-256color"
 
 # go
 export GOPATH="/Users/samuelstarling/Development/go"
+export PATH="$PATH:$GOPATH/bin"
 
