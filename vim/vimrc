@@ -16,6 +16,7 @@
   set wildmenu
   set showmode
   set nowrap
+  set colorcolumn=80
 
 " All the backspaces!
   set backspace=indent,eol,start
