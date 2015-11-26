@@ -1,3 +1,9 @@
 .DS_Store
 .java-version
 .idea
+.idea_modules
+.install.jdk
+.ensime
+.ensime_cache
+.sbt
+.ivy2

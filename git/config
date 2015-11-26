@@ -2,13 +2,15 @@
   name = Sam Starling
   email = sam@soundcloud.com
 [push]
-  default = matching
+  default = current
 [alias]
   st = status
   squeeze = push
   yank = pull
+  co = checkout
   ci = commit
   df = diff
-  bora = commit -am "yolo" && push --force
+  pl = pull --rebase
 [core]
 	excludesfile = /Users/samuelstarling/.gitignore
+
