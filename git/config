@@ -1,6 +1,7 @@
 [user]
   name = Sam Starling
   email = sam@soundcloud.com
+	signingkey = FA8309A2
 [push]
   default = current
 [alias]
