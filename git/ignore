@@ -7,3 +7,8 @@
 .ensime_cache
 .sbt
 .ivy2
+.tm_properties
+.ruby-version
+.env
+.gemrc
+*.log

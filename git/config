@@ -1,7 +1,7 @@
 [user]
   name = Sam Starling
   email = sam@soundcloud.com
-	signingkey = FA8309A2
+	signingkey = 71B26E4C
 [push]
   default = current
 [alias]
@@ -14,4 +14,7 @@
   pl = pull --rebase
 [core]
 	excludesfile = /Users/samuelstarling/.gitignore
+	pager = diff-so-fancy | less --tabs=4 -RFX
 
+[pull]
+	rebase = true
