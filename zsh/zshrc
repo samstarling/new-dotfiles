@@ -18,9 +18,6 @@ source `brew --prefix`/etc/profile.d/z.sh
 export PATH="$HOME/.jenv/bin:$PATH"
 eval "$(jenv init -)"
 
-# boot2docker
-eval $(boot2docker shellinit 2>/dev/null)
-
 # other bits
 export EDITOR="vim"
 export TERM="screen-256color"
@@ -29,3 +26,15 @@ export TERM="screen-256color"
 export GOPATH="/Users/samuelstarling/Development/go"
 export PATH="$PATH:$GOPATH/bin"
 
+# brew
+export PATH="/usr/local/sbin:$PATH"
+
+# docker-machine
+eval "$(docker-machine env default)"
+
+function bazooka-procs {
+  bazooka ps | tr -s ' ' | cut -d' ' -f4-5 | grep -v 'REV ENV' | sort | uniq -c
+}
+
+export NVM_DIR="/Users/samuelstarling/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
