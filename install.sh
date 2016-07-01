@@ -21,3 +21,6 @@ ln -sf $(pwd)/vim/colors ~/.vim/colors
 ln -sf $(pwd)/tmux/conf ~/.tmux.conf
 ln -sf $(pwd)/fish/functions/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
 ln -sf $(pwd)/fish/functions/fish_greeting.fish ~/.config/fish/functions/fish_greeting.fish
+
+# account for different home dirs
+git config --global core.excludesfile ~/.gitignore

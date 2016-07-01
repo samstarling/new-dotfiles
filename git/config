@@ -13,7 +13,7 @@
   df = diff
   pl = pull --rebase
 [core]
-	excludesfile = /Users/samuelstarling/.gitignore
+	excludesfile = /Users/samstarling/.gitignore
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	editor = /usr/bin/vim
 
