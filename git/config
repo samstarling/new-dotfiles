@@ -1,7 +1,7 @@
 [user]
   name = Sam Starling
   email = sam@soundcloud.com
-	signingkey = 71B26E4C
+  signingkey = 71B26E4C
 [push]
   default = current
 [alias]
@@ -13,9 +13,8 @@
   df = diff
   pl = pull --rebase
 [core]
-	excludesfile = /Users/samstarling/.gitignore
-	pager = diff-so-fancy | less --tabs=4 -RFX
-	editor = /usr/bin/vim
-
+  excludesfile = /Users/samstarling/.gitignore
+  pager = diff-so-fancy | less --tabs=4 -RFX
+  editor = /usr/bin/vim
 [pull]
-	rebase = true
+  rebase = true
