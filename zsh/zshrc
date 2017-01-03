@@ -29,9 +29,6 @@ export PATH="$PATH:$GOPATH/bin"
 # brew
 export PATH="/usr/local/sbin:$PATH"
 
-# docker-machine
-eval "$(docker-machine env default)"
-
 function bazooka-procs {
   bazooka ps | tr -s ' ' | cut -d' ' -f4-5 | grep -v 'REV ENV' | sort | uniq -c
 }
