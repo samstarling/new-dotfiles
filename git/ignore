@@ -12,3 +12,5 @@
 .env
 .gemrc
 *.log
+.kube
+.oracle_jre_usage
