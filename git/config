@@ -20,3 +20,5 @@
   rebase = true
 [credential]
 	helper = osxkeychain
+[branch]
+	autosetuprebase = always
