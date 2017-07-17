@@ -13,11 +13,11 @@
   df = diff
   pl = pull --rebase
 [core]
-  excludesfile = /Users/samuelstarling/.gitignore
+	excludesfile = /Users/samuelstarling/.gitignore
   pager = diff-so-fancy | less --tabs=4 -RFX
   editor = /usr/bin/vim
 [pull]
-  rebase = true
+	rebase = true
 [credential]
 	helper = osxkeychain
 [branch]
