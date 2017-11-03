@@ -1,24 +1,22 @@
 [user]
   name = Sam Starling
-  email = sam@soundcloud.com
-  signingkey = 71B26E4C
+  email = mail@samstarling.co.uk
 [push]
   default = current
 [alias]
   st = status
-  squeeze = push
-  yank = pull
+  s = status
   co = checkout
   ci = commit
   df = diff
-  pl = pull --rebase
+  pr = pull --rebase
 [core]
-	excludesfile = /Users/samuelstarling/.gitignore
+  excludesfile = ~/.gitignore
   pager = diff-so-fancy | less --tabs=4 -RFX
   editor = /usr/bin/vim
 [pull]
-	rebase = true
+  rebase = true
 [credential]
-	helper = osxkeychain
+  helper = osxkeychain
 [branch]
-	autosetuprebase = always
+  autosetuprebase = always
