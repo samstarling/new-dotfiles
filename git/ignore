@@ -13,4 +13,6 @@
 .gemrc
 *.log
 .kube
+.tags
+.tags1
 .oracle_jre_usage
