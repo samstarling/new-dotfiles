@@ -9,3 +9,6 @@ set -g -x PATH "$HOME/Development/go/bin" $PATH
 # rbenv
 set -g -x PATH "$HOME/.rbenv/shims" $PATH
 rbenv rehash >/dev/null ^&1
+
+# direnv
+eval (direnv hook fish)
