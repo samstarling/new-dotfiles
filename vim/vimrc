@@ -5,6 +5,7 @@
   let mapleader=","
 
 " Basics
+  set term=screen-256color
   syntax on
   imap jj <esc>
   set number
@@ -50,11 +51,6 @@
 
 " ctrl-p
   let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
-
-" airline
-  let g:airline#extensions#tabline#enabled = 1
-  let g:airline_left_sep=''
-  let g:airline_right_sep=''
 
 " fancy cursor
   " let &t_SI = "\<Esc>Ptmux;\<Esc>\<Esc>]50;CursorShape=1\x7\<Esc>\\"
