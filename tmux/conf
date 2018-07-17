@@ -1,5 +1,5 @@
-# pastey
-set-option -g default-command "reattach-to-user-namespace -l zsh"
+# os x paste
+bind -T copy-mode-vi y send -X copy-pipe-and-cancel "reattach-to-user-namespace pbcopy"
 
 # ensure colours work correctly
 set -g default-terminal "screen-256color"
@@ -7,7 +7,7 @@ set -g default-terminal "screen-256color"
 # start numbering at 1
 set -g base-index 1
 
-# mous
+# mouse
 set -g mouse on
 
 # no escape delay
