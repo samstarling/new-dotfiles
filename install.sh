@@ -3,7 +3,7 @@
 # required directories
 mkdir -p ~/.vim/backups
 mkdir -p ~/.vim/swaps
-rm -rf ~/.vim/colors
+mkdir -p ~/.config/fish
 mkdir -p ~/.oh-my-zsh/themes
 
 # symlinks
