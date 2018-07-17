@@ -16,3 +16,5 @@
 .tags
 .tags1
 .oracle_jre_usage
+*.ignore
+.envrc
