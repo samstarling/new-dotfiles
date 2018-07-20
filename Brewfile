@@ -46,6 +46,7 @@ brew "mas"
 brew "md5sha1sum"
 brew "memcached", restart_service: true
 brew "msgpack"
+brew "mysql", restart_service: true
 brew "ncdu"
 brew "open-mpi"
 brew "osquery"
@@ -81,6 +82,7 @@ cask "font-inter-ui"
 cask "font-iosevka"
 cask "google-chrome"
 cask "iterm2"
+cask "moneymoney"
 cask "ngrok"
 cask "pgadmin4"
 cask "slack"
@@ -89,6 +91,7 @@ cask "spotify"
 cask "transmit"
 cask "visual-studio-code"
 cask "vlc"
+cask "zoomus"
 mas "Airmail 3", id: 918858936
 mas "Fantastical", id: 435003921
 mas "Keynote", id: 409183694
