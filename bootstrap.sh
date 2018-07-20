@@ -10,8 +10,19 @@ xcode-select --install
 brew install mas
 mas signin mail@samstarling.co.uk
 
-# Install from Brewfile
-brew bundle install
+# Create required directories
+mkdir -p ~/.ssh
+mkdir -p ~/.vim/backups
+mkdir -p ~/.vim/swaps
+mkdir -p ~/.config/fish
+mkdir -p ~/Development
+
+# Generate SSH keys
+ssh-keygen -f ~/.ssh/github -t rsa -b 4096
+ssh-keygen -f ~/.ssh/bitbucket -t rsa -b 4096
+ssh-keygen -f ~/.ssh/digitalocean -t rsa -b 4096
+ssh-keygen -f ~/.ssh/gitlab -t rsa -b 4096
+ssh-keygen -f ~/.ssh/linode -t rsa -b 4096
 
 # Change to fish
 chsh -s /usr/local/bin/fish
