@@ -12,3 +12,5 @@ ln -sf $(pwd)/ssh/config ~/.ssh/config
 
 # Install everything from Brewfile
 brew bundle install
+brew bundle cleanup
+brew cleanup
