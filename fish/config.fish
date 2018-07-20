@@ -6,6 +6,9 @@ set -g -x PATH "/usr/local/sbin" $PATH
 set -g -x GOPATH "$HOME/Development/go"
 set -g -x PATH "$HOME/Development/go/bin" $PATH
 
+# editor
+set -g -x EDITOR "code"
+
 # rbenv
 set -g -x PATH "$HOME/.rbenv/shims" $PATH
 rbenv rehash >/dev/null ^&1
