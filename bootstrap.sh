@@ -7,8 +7,9 @@ xcode-select --install
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # Mac App Store command line
-brew install mas
-mas signin mail@samstarling.co.uk
+# This is broken on macOS Mojave
+# brew install mas
+# mas signin mail@samstarling.co.uk
 
 # Create required directories
 mkdir -p ~/.ssh
@@ -24,5 +25,5 @@ ssh-keygen -f ~/.ssh/digitalocean -t rsa -b 4096
 ssh-keygen -f ~/.ssh/gitlab -t rsa -b 4096
 ssh-keygen -f ~/.ssh/linode -t rsa -b 4096
 
-# Change to fish
-chsh -s /usr/local/bin/fish
+# Prepare for fish
+echo "/usr/local/bin/fish" >> /etc/shells
