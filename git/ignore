@@ -18,3 +18,5 @@
 .oracle_jre_usage
 *.ignore
 .envrc
+.powder
+.vs
