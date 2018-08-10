@@ -7,9 +7,14 @@
     "workbench.colorTheme": "One Dark Pro",
     "editor.tabSize": 2,
     "window.zoomLevel": 0,
-    "editor.formatOnSave": true,
     "workbench.statusBar.feedback.visible": false,
     "editor.rulers": [
         80
-    ]
+    ],
+    "[javascript]": {
+        "editor.formatOnSave": true
+    },
+    "[json]": {
+    "editor.formatOnSave": true
+    }
 }
