@@ -3,6 +3,9 @@ Host *
   UseKeychain yes
   IdentityFile ~/.ssh/id_rsa
 
+Host *.linode.com
+  IdentityFile ~/.ssh/linode
+
 Host github.com
   IdentityFile ~/.ssh/github
 
