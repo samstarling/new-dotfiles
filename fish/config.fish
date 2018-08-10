@@ -6,6 +6,9 @@ set -g -x PATH "/usr/local/sbin" $PATH
 set -g -x GOPATH "$HOME/Development/go"
 set -g -x PATH "$HOME/Development/go/bin" $PATH
 
+# virtualenv
+set -g -x PATH "$HOME/Library/Python/2.7/bin" $PATH
+
 # editor
 set -g -x EDITOR "code"
 
@@ -15,3 +18,6 @@ rbenv rehash >/dev/null ^&1
 
 # direnv
 eval (direnv hook fish)
+
+# asdf
+source ~/.asdf/asdf.fish
