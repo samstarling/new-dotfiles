@@ -1,6 +1,9 @@
 " Leader
   let mapleader=","
 
+" ctrlp
+  set runtimepath^=~/.vim/bundle/ctrlp.vim
+
 " Basics
   set term=screen-256color
   syntax on
