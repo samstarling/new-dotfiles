@@ -1,7 +1,10 @@
 .DS_Store
+.elixir_ls
 .java-version
+.ruby-version
 .idea
 .idea_modules
+.envrc
 .install.jdk
 .ensime
 .ensime_cache
@@ -20,3 +23,7 @@
 .envrc
 .powder
 .vs
+.vscode
+.byebug_history
+.tool-versions
+.cache
