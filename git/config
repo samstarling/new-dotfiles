@@ -1,6 +1,6 @@
 [user]
   name = Sam Starling
-  email = mail@samstarling.co.uk
+  email = 42478+samstarling@users.noreply.github.com
 [push]
   default = current
 [alias]
@@ -20,3 +20,5 @@
   helper = osxkeychain
 [branch]
   autosetuprebase = always
+[url "git@github.com:"]
+	insteadOf = https://github.com/
