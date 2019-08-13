@@ -1,20 +1,37 @@
 {
-    "editor.fontSize": 15,
-    "editor.renderWhitespace": "all",
-    "editor.fontFamily": "Input Mono Compressed",
-    "editor.lineHeight": 22,
-    "editor.minimap.enabled": false,
-    "workbench.colorTheme": "One Dark Pro",
-    "editor.tabSize": 2,
-    "window.zoomLevel": 0,
-    "workbench.statusBar.feedback.visible": false,
-    "editor.rulers": [
-        80
-    ],
-    "[javascript]": {
-        "editor.formatOnSave": true
-    },
-    "[json]": {
-    "editor.formatOnSave": true
-    }
+  "editor.fontSize": 15,
+  "editor.renderWhitespace": "all",
+  "editor.fontFamily": "Input Mono Compressed",
+  "editor.lineHeight": 22,
+  "editor.minimap.enabled": false,
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.tabSize": 2,
+  "editor.rulers": [
+    80,
+  ],
+  "editor.formatOnSave": true,
+  "window.nativeTabs": true,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.lineHeight": 1.1,
+  "workbench.activityBar.visible": true,
+  "breadcrumbs.enabled": false,
+  "files.exclude": {
+    "**/.cache": true,
+    "**/node_modules": true
+  },
+  "tslint.packageManager": "yarn",
+  "workbench.startupEditor": "newUntitledFile",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
