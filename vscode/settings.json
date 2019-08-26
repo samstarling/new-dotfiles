@@ -33,5 +33,7 @@
   },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "window.zoomLevel": 0,
+  "workbench.sideBar.location": "left"
 }
